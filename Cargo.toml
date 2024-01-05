@@ -1,0 +1,12 @@
+[package]
+name = "logrs"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+log4rs = "1"
+log = "0"
+libc = "0.2"
