@@ -1,3 +1,6 @@
+pub extern crate log;
+pub extern crate log4rs;
+
 use log4rs::{
     append::{console::ConsoleAppender, file::FileAppender},
     config::{Appender, Root},
